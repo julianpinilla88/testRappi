@@ -9,8 +9,7 @@
 
         {
             parent::__construct();
-            $this->load->model('cubeSummationModel');
-            $this->load->helper('url');
+           $this->load->helper('url');
         }
 
 
